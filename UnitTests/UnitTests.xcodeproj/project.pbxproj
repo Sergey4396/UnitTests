@@ -85,9 +85,7 @@
 			children = (
 				FA4DB4E124815CAF00B2DBE1 /* AppDelegate.swift */,
 				FA4DB4E324815CAF00B2DBE1 /* SceneDelegate.swift */,
-				FA4DB4E524815CAF00B2DBE1 /* ViewController.swift */,
-				FA4DB5032481633F00B2DBE1 /* Person.swift */,
-				FA4DB505248163F900B2DBE1 /* MainPresentor.swift */,
+				FA4DB50724816DB500B2DBE1 /* MainModule */,
 				FA4DB4E724815CAF00B2DBE1 /* Main.storyboard */,
 				FA4DB4EA24815CB500B2DBE1 /* Assets.xcassets */,
 				FA4DB4EC24815CB500B2DBE1 /* LaunchScreen.storyboard */,
@@ -103,6 +101,40 @@
 				FA4DB4FA24815CB500B2DBE1 /* Info.plist */,
 			);
 			path = UnitTestsTests;
+			sourceTree = "<group>";
+		};
+		FA4DB50724816DB500B2DBE1 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DB50824816DFE00B2DBE1 /* View */,
+				FA4DB50924816E1500B2DBE1 /* Model */,
+				FA4DB50A24816E3100B2DBE1 /* Presenter */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		FA4DB50824816DFE00B2DBE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DB4E524815CAF00B2DBE1 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA4DB50924816E1500B2DBE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DB5032481633F00B2DBE1 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA4DB50A24816E3100B2DBE1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FA4DB505248163F900B2DBE1 /* MainPresentor.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
