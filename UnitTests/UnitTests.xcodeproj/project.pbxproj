@@ -16,6 +16,8 @@
 		FA4DB4F924815CB500B2DBE1 /* UnitTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DB4F824815CB500B2DBE1 /* UnitTestsTests.swift */; };
 		FA4DB5042481633F00B2DBE1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DB5032481633F00B2DBE1 /* Person.swift */; };
 		FA4DB506248163F900B2DBE1 /* MainPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DB505248163F900B2DBE1 /* MainPresentor.swift */; };
+		FA4DB50C24816ED100B2DBE1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4DB50B24816ED100B2DBE1 /* MainViewController.xib */; };
+		FA4DB50E2481702000B2DBE1 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4DB50D2481702000B2DBE1 /* ModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		FA4DB4FA24815CB500B2DBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA4DB5032481633F00B2DBE1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		FA4DB505248163F900B2DBE1 /* MainPresentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresentor.swift; sourceTree = "<group>"; };
+		FA4DB50B24816ED100B2DBE1 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FA4DB50D2481702000B2DBE1 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 			children = (
 				FA4DB4E124815CAF00B2DBE1 /* AppDelegate.swift */,
 				FA4DB4E324815CAF00B2DBE1 /* SceneDelegate.swift */,
+				FA4DB50D2481702000B2DBE1 /* ModuleBuilder.swift */,
 				FA4DB50724816DB500B2DBE1 /* MainModule */,
 				FA4DB4E724815CAF00B2DBE1 /* Main.storyboard */,
 				FA4DB4EA24815CB500B2DBE1 /* Assets.xcassets */,
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				FA4DB4E524815CAF00B2DBE1 /* ViewController.swift */,
+				FA4DB50B24816ED100B2DBE1 /* MainViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				FA4DB4EE24815CB500B2DBE1 /* LaunchScreen.storyboard in Resources */,
 				FA4DB4EB24815CB500B2DBE1 /* Assets.xcassets in Resources */,
 				FA4DB4E924815CAF00B2DBE1 /* Main.storyboard in Resources */,
+				FA4DB50C24816ED100B2DBE1 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +250,7 @@
 				FA4DB5042481633F00B2DBE1 /* Person.swift in Sources */,
 				FA4DB4E424815CAF00B2DBE1 /* SceneDelegate.swift in Sources */,
 				FA4DB506248163F900B2DBE1 /* MainPresentor.swift in Sources */,
+				FA4DB50E2481702000B2DBE1 /* ModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
